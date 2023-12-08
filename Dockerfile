@@ -1,4 +1,4 @@
-FROM maven:3.9.5-amazoncorretto-17-debian
+FROM --platform=linux/amd64 maven:3.9.5-amazoncorretto-17-debian
 
 ENV NVM_VERSION=v0.39.7
 ENV NODE_VERSION=v18.19.0
