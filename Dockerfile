@@ -1,7 +1,7 @@
 FROM maven:3.9.5-amazoncorretto-17-debian
 
 ENV NVM_VERSION=v0.39.7
-ENV NODE_VERSION=v8.12.0
+ENV NODE_VERSION=v18.19.0
 ENV NVM_DIR=/usr/local/nvm
 
 RUN apt-get update \
